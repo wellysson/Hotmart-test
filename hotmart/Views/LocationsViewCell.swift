@@ -10,6 +10,7 @@ import UIKit
 
 class LocationsViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var contentainerView: UIView!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var typeLabel: UILabel!
@@ -19,13 +20,16 @@ class LocationsViewCell: UICollectionViewCell {
     @IBOutlet weak var star4ImageView: UIImageView!
     @IBOutlet weak var star5ImageView: UIImageView!
     
+    @IBOutlet weak var cellWidth: NSLayoutConstraint!
+    
    static let identifier = "LocationsViewCell"
 
     override func awakeFromNib() {
         super.awakeFromNib()
     }
     
-    public func configure(image: UIImage?, name: String, type: String, review: Double) {
+    public func configure(image: UIImage?, name: String, type: String, review: Double, width: CGFloat) {
+        self.cellWidth.constant =  width
         self.imageView.image = image
         self.nameLabel.text = name
         self.typeLabel.text = type
@@ -65,5 +69,9 @@ class LocationsViewCell: UICollectionViewCell {
     static func nib() -> UINib {
         return UINib(nibName: "LocationsViewCell", bundle: nil)
     }
-
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        self.contentainerView.layer.cornerRadius = 16
+    }
 }

@@ -25,6 +25,7 @@
 		C1FA7CC9253202B7004D47DD /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FA7CC8253202B7004D47DD /* LoadingOverlay.swift */; };
 		C1FECD9125322D6300336D25 /* LocationsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FECD8F25322D6300336D25 /* LocationsViewCell.swift */; };
 		C1FECD9225322D6300336D25 /* LocationsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1FECD9025322D6300336D25 /* LocationsViewCell.xib */; };
+		C1FECD9425323D0300336D25 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FECD9325323D0300336D25 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		C1FA7CC8253202B7004D47DD /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
 		C1FECD8F25322D6300336D25 /* LocationsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewCell.swift; sourceTree = "<group>"; };
 		C1FECD9025322D6300336D25 /* LocationsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationsViewCell.xib; sourceTree = "<group>"; };
+		C1FECD9325323D0300336D25 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D914751C189E1B6058206114 /* Pods-hotmartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotmartTests.release.xcconfig"; path = "Target Support Files/Pods-hotmartTests/Pods-hotmartTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8559BCB20A83F23334C19C2 /* Pods-hotmart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotmart.debug.xcconfig"; path = "Target Support Files/Pods-hotmart/Pods-hotmart.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,6 +130,7 @@
 		C111D6042532034B00F06BF2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C1FECD9325323D0300336D25 /* DetailViewController.swift */,
 				C111D611253218E700F06BF2 /* LocationViewController.swift */,
 				C16A6E362531FC660053CFCD /* Main.storyboard */,
 				C1FECD8F25322D6300336D25 /* LocationsViewCell.swift */,
@@ -362,6 +365,7 @@
 				C111D60E2532085200F06BF2 /* LocationsService.swift in Sources */,
 				C16A6E312531FC660053CFCD /* AppDelegate.swift in Sources */,
 				C111D60A2532056400F06BF2 /* Schedules.swift in Sources */,
+				C1FECD9425323D0300336D25 /* DetailViewController.swift in Sources */,
 				C111D60C2532065100F06BF2 /* LocationDetail.swift in Sources */,
 				C111D612253218E700F06BF2 /* LocationViewController.swift in Sources */,
 				C16A6E332531FC660053CFCD /* SceneDelegate.swift in Sources */,

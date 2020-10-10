@@ -17,21 +17,28 @@ class LocationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.collectionView.register(LocationsViewCell.nib(), forCellWithReuseIdentifier: LocationsViewCell.identifier)
+//        let layout = UICollectionViewFlowLayout()
+//        layout.itemSize = CGSize(width: 200, height: 600)
+//        collectionView.collectionViewLayout = layout
         
+        self.collectionView.register(LocationsViewCell.nib(), forCellWithReuseIdentifier: LocationsViewCell.identifier)
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         
         self.fillContent()
     }
-    
-    let reuseIdentifier = "cell" // also enter this string as the cell identifier in the storyboard
-    var items = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48"]
-
 
     private func fillContent() {
         
         self.getLocations()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showDetail", let locationDetail = sender as? LocationDetail {
+            if let controller = (segue.destination as? DetailViewController) {
+                controller.locationDetail = locationDetail
+            }
+        }
     }
 }
 
@@ -45,7 +52,8 @@ extension LocationViewController: UICollectionViewDataSource, UICollectionViewDe
         let cell = self.collectionView.dequeueReusableCell(withReuseIdentifier: LocationsViewCell.identifier, for: indexPath) as! LocationsViewCell
         
         let location = locations[indexPath.row]
-        cell.configure(image: nil, name: location.name ?? "", type: location.type ?? "", review: location.review ?? 0)
+        let width = self.getCellWidth()
+        cell.configure(image: nil, name: location.name ?? "", type: location.type ?? "", review: location.review ?? 0, width: width)
         
         return cell
     }
@@ -56,6 +64,19 @@ extension LocationViewController: UICollectionViewDataSource, UICollectionViewDe
         if let id = locations[indexPath.row].id {
             self.getLocationDetail(id: id)
         }
+    }
+    
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+//        return CGSize(width: 200, height: 600)
+//    }
+}
+
+//Flow
+extension LocationViewController {
+    
+    private func getCellWidth() -> CGFloat {
+        let width = (self.collectionView.frame.width / 2) - 8
+        return width
     }
 }
 
@@ -74,10 +95,11 @@ extension LocationViewController {
     
     private func getLocationDetail(id: Int) {
         self.view.showBlurLoader()
-        LocationService.getLocationDetail(id: id, completion: { [weak self] location in
+        LocationService.getLocationDetail(id: id, completion: { [weak self] locationDetail in
             guard let self = self else { return }
             
             self.view.removeBluerLoader()
+            self.performSegue(withIdentifier: "showDetail", sender: locationDetail)
         })
     }
 }
