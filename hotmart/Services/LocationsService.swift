@@ -34,7 +34,7 @@ class LocationService {
             
             if let json = response.result.value as? [String: Any] {
                 if let locationDetail = Mapper<LocationDetail>().map(JSON: json) {
-                    print(locationDetail)
+                    completion(locationDetail)
                 }
             } else {
                 completion(nil)

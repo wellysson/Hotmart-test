@@ -15,14 +15,16 @@
 		C111D60A2532056400F06BF2 /* Schedules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C111D6092532056400F06BF2 /* Schedules.swift */; };
 		C111D60C2532065100F06BF2 /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C111D60B2532065100F06BF2 /* LocationDetail.swift */; };
 		C111D60E2532085200F06BF2 /* LocationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C111D60D2532085200F06BF2 /* LocationsService.swift */; };
+		C111D612253218E700F06BF2 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C111D611253218E700F06BF2 /* LocationViewController.swift */; };
 		C16A6E312531FC660053CFCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A6E302531FC660053CFCD /* AppDelegate.swift */; };
 		C16A6E332531FC660053CFCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A6E322531FC660053CFCD /* SceneDelegate.swift */; };
-		C16A6E352531FC660053CFCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A6E342531FC660053CFCD /* ViewController.swift */; };
 		C16A6E382531FC660053CFCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16A6E362531FC660053CFCD /* Main.storyboard */; };
 		C16A6E3A2531FC670053CFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16A6E392531FC670053CFCD /* Assets.xcassets */; };
 		C16A6E3D2531FC670053CFCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16A6E3B2531FC670053CFCD /* LaunchScreen.storyboard */; };
 		C16A6E482531FC670053CFCD /* hotmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A6E472531FC670053CFCD /* hotmartTests.swift */; };
 		C1FA7CC9253202B7004D47DD /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FA7CC8253202B7004D47DD /* LoadingOverlay.swift */; };
+		C1FECD9125322D6300336D25 /* LocationsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FECD8F25322D6300336D25 /* LocationsViewCell.swift */; };
+		C1FECD9225322D6300336D25 /* LocationsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1FECD9025322D6300336D25 /* LocationsViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,10 +48,10 @@
 		C111D6092532056400F06BF2 /* Schedules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedules.swift; sourceTree = "<group>"; };
 		C111D60B2532065100F06BF2 /* LocationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetail.swift; sourceTree = "<group>"; };
 		C111D60D2532085200F06BF2 /* LocationsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsService.swift; sourceTree = "<group>"; };
+		C111D611253218E700F06BF2 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		C16A6E2D2531FC660053CFCD /* hotmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hotmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16A6E302531FC660053CFCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C16A6E322531FC660053CFCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C16A6E342531FC660053CFCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C16A6E372531FC660053CFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C16A6E392531FC670053CFCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C16A6E3C2531FC670053CFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +60,8 @@
 		C16A6E472531FC670053CFCD /* hotmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hotmartTests.swift; sourceTree = "<group>"; };
 		C16A6E492531FC670053CFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1FA7CC8253202B7004D47DD /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
+		C1FECD8F25322D6300336D25 /* LocationsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewCell.swift; sourceTree = "<group>"; };
+		C1FECD9025322D6300336D25 /* LocationsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationsViewCell.xib; sourceTree = "<group>"; };
 		D914751C189E1B6058206114 /* Pods-hotmartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotmartTests.release.xcconfig"; path = "Target Support Files/Pods-hotmartTests/Pods-hotmartTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8559BCB20A83F23334C19C2 /* Pods-hotmart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotmart.debug.xcconfig"; path = "Target Support Files/Pods-hotmart/Pods-hotmart.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,6 +128,10 @@
 		C111D6042532034B00F06BF2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C111D611253218E700F06BF2 /* LocationViewController.swift */,
+				C16A6E362531FC660053CFCD /* Main.storyboard */,
+				C1FECD8F25322D6300336D25 /* LocationsViewCell.swift */,
+				C1FECD9025322D6300336D25 /* LocationsViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -157,8 +165,6 @@
 				C111D6042532034B00F06BF2 /* Views */,
 				C16A6E302531FC660053CFCD /* AppDelegate.swift */,
 				C16A6E322531FC660053CFCD /* SceneDelegate.swift */,
-				C16A6E342531FC660053CFCD /* ViewController.swift */,
-				C16A6E362531FC660053CFCD /* Main.storyboard */,
 				C16A6E392531FC670053CFCD /* Assets.xcassets */,
 				C16A6E3B2531FC670053CFCD /* LaunchScreen.storyboard */,
 				C16A6E3E2531FC670053CFCD /* Info.plist */,
@@ -269,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C16A6E3D2531FC670053CFCD /* LaunchScreen.storyboard in Resources */,
+				C1FECD9225322D6300336D25 /* LocationsViewCell.xib in Resources */,
 				C16A6E3A2531FC670053CFCD /* Assets.xcassets in Resources */,
 				C16A6E382531FC660053CFCD /* Main.storyboard in Resources */,
 			);
@@ -353,13 +360,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C111D60E2532085200F06BF2 /* LocationsService.swift in Sources */,
-				C16A6E352531FC660053CFCD /* ViewController.swift in Sources */,
 				C16A6E312531FC660053CFCD /* AppDelegate.swift in Sources */,
 				C111D60A2532056400F06BF2 /* Schedules.swift in Sources */,
 				C111D60C2532065100F06BF2 /* LocationDetail.swift in Sources */,
+				C111D612253218E700F06BF2 /* LocationViewController.swift in Sources */,
 				C16A6E332531FC660053CFCD /* SceneDelegate.swift in Sources */,
 				C111D6012532031000F06BF2 /* MYVariables.swift in Sources */,
 				C111D6062532042100F06BF2 /* Location.swift in Sources */,
+				C1FECD9125322D6300336D25 /* LocationsViewCell.swift in Sources */,
 				C111D608253204C300F06BF2 /* Schedule.swift in Sources */,
 				C1FA7CC9253202B7004D47DD /* LoadingOverlay.swift in Sources */,
 			);
