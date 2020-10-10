@@ -3,192 +3,147 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AE8F65147E02CB6BBFE7391 /* Pods_hotmart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13E64121A9E74B20CDF6C6E /* Pods_hotmart.framework */; };
-		87461E3928AA744A3B539160 /* Pods_hotmartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CE166B30DAE9579FE06F31 /* Pods_hotmartTests.framework */; };
-		C17D000C2531DA5B00A50EBB /* MyVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17D000B2531DA5B00A50EBB /* MyVariables.swift */; };
-		C17D00102531DA8200A50EBB /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17D000F2531DA8200A50EBB /* LoadingOverlay.swift */; };
-		C19389432531D7E400E9A441 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19389422531D7E400E9A441 /* AppDelegate.swift */; };
-		C19389452531D7E400E9A441 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19389442531D7E400E9A441 /* SceneDelegate.swift */; };
-		C19389472531D7E400E9A441 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19389462531D7E400E9A441 /* ContentView.swift */; };
-		C19389492531D7E500E9A441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19389482531D7E500E9A441 /* Assets.xcassets */; };
-		C193894C2531D7E500E9A441 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C193894B2531D7E500E9A441 /* Preview Assets.xcassets */; };
-		C193894F2531D7E500E9A441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C193894D2531D7E500E9A441 /* LaunchScreen.storyboard */; };
-		C193895A2531D7E500E9A441 /* hotmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19389592531D7E500E9A441 /* hotmartTests.swift */; };
+		6E7BCFF0D51C10EB49D5096F /* Pods_hotmartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4F952D7A7C1920F40607B6 /* Pods_hotmartTests.framework */; };
+		6FAC044E574A302EAFD9C8AF /* Pods_hotmart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890E73ABDE3B806E9854800F /* Pods_hotmart.framework */; };
+		C16A6E312531FC660053CFCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A6E302531FC660053CFCD /* AppDelegate.swift */; };
+		C16A6E332531FC660053CFCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A6E322531FC660053CFCD /* SceneDelegate.swift */; };
+		C16A6E352531FC660053CFCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A6E342531FC660053CFCD /* ViewController.swift */; };
+		C16A6E382531FC660053CFCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16A6E362531FC660053CFCD /* Main.storyboard */; };
+		C16A6E3A2531FC670053CFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16A6E392531FC670053CFCD /* Assets.xcassets */; };
+		C16A6E3D2531FC670053CFCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16A6E3B2531FC670053CFCD /* LaunchScreen.storyboard */; };
+		C16A6E482531FC670053CFCD /* hotmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A6E472531FC670053CFCD /* hotmartTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C19389562531D7E500E9A441 /* PBXContainerItemProxy */ = {
+		C16A6E442531FC670053CFCD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C19389372531D7E400E9A441 /* Project object */;
+			containerPortal = C16A6E252531FC660053CFCD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C193893E2531D7E400E9A441;
+			remoteGlobalIDString = C16A6E2C2531FC660053CFCD;
 			remoteInfo = hotmart;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0655C327769E2169AA6176EC /* Pods-hotmartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotmartTests.release.xcconfig"; path = "Target Support Files/Pods-hotmartTests/Pods-hotmartTests.release.xcconfig"; sourceTree = "<group>"; };
-		41CE166B30DAE9579FE06F31 /* Pods_hotmartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hotmartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		97A60DB9358B5A5C2F58CC1F /* Pods-hotmart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotmart.debug.xcconfig"; path = "Target Support Files/Pods-hotmart/Pods-hotmart.debug.xcconfig"; sourceTree = "<group>"; };
-		BC1549CEB0A09840F50C13DC /* Pods-hotmart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotmart.release.xcconfig"; path = "Target Support Files/Pods-hotmart/Pods-hotmart.release.xcconfig"; sourceTree = "<group>"; };
-		C17D000B2531DA5B00A50EBB /* MyVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVariables.swift; sourceTree = "<group>"; };
-		C17D000F2531DA8200A50EBB /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
-		C193893F2531D7E400E9A441 /* hotmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hotmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C19389422531D7E400E9A441 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C19389442531D7E400E9A441 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C19389462531D7E400E9A441 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C19389482531D7E500E9A441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C193894B2531D7E500E9A441 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C193894E2531D7E500E9A441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C19389502531D7E500E9A441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C19389552531D7E500E9A441 /* hotmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hotmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C19389592531D7E500E9A441 /* hotmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hotmartTests.swift; sourceTree = "<group>"; };
-		C193895B2531D7E500E9A441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9B7CCDFE9E64A7FA181AE85 /* Pods-hotmartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotmartTests.debug.xcconfig"; path = "Target Support Files/Pods-hotmartTests/Pods-hotmartTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F13E64121A9E74B20CDF6C6E /* Pods_hotmart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hotmart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F8AB831B58125E0846221B /* Pods-hotmartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotmartTests.debug.xcconfig"; path = "Target Support Files/Pods-hotmartTests/Pods-hotmartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		87A0742C6B9F815F4B29576E /* Pods-hotmart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotmart.release.xcconfig"; path = "Target Support Files/Pods-hotmart/Pods-hotmart.release.xcconfig"; sourceTree = "<group>"; };
+		890E73ABDE3B806E9854800F /* Pods_hotmart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hotmart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4F952D7A7C1920F40607B6 /* Pods_hotmartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hotmartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16A6E2D2531FC660053CFCD /* hotmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hotmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16A6E302531FC660053CFCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C16A6E322531FC660053CFCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C16A6E342531FC660053CFCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C16A6E372531FC660053CFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C16A6E392531FC670053CFCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C16A6E3C2531FC670053CFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C16A6E3E2531FC670053CFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16A6E432531FC670053CFCD /* hotmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hotmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16A6E472531FC670053CFCD /* hotmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hotmartTests.swift; sourceTree = "<group>"; };
+		C16A6E492531FC670053CFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D914751C189E1B6058206114 /* Pods-hotmartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotmartTests.release.xcconfig"; path = "Target Support Files/Pods-hotmartTests/Pods-hotmartTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8559BCB20A83F23334C19C2 /* Pods-hotmart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotmart.debug.xcconfig"; path = "Target Support Files/Pods-hotmart/Pods-hotmart.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C193893C2531D7E400E9A441 /* Frameworks */ = {
+		C16A6E2A2531FC660053CFCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AE8F65147E02CB6BBFE7391 /* Pods_hotmart.framework in Frameworks */,
+				6FAC044E574A302EAFD9C8AF /* Pods_hotmart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C19389522531D7E500E9A441 /* Frameworks */ = {
+		C16A6E402531FC670053CFCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87461E3928AA744A3B539160 /* Pods_hotmartTests.framework in Frameworks */,
+				6E7BCFF0D51C10EB49D5096F /* Pods_hotmartTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		310EA8642D137F0074B1CC4B /* Pods */ = {
+		2DC4ADA74C2B9B29F422BB21 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				97A60DB9358B5A5C2F58CC1F /* Pods-hotmart.debug.xcconfig */,
-				BC1549CEB0A09840F50C13DC /* Pods-hotmart.release.xcconfig */,
-				C9B7CCDFE9E64A7FA181AE85 /* Pods-hotmartTests.debug.xcconfig */,
-				0655C327769E2169AA6176EC /* Pods-hotmartTests.release.xcconfig */,
+				F8559BCB20A83F23334C19C2 /* Pods-hotmart.debug.xcconfig */,
+				87A0742C6B9F815F4B29576E /* Pods-hotmart.release.xcconfig */,
+				80F8AB831B58125E0846221B /* Pods-hotmartTests.debug.xcconfig */,
+				D914751C189E1B6058206114 /* Pods-hotmartTests.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		C17D000A2531DA3600A50EBB /* Utils */ = {
+		5A21C1733694FAF2F814A500 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C17D000B2531DA5B00A50EBB /* MyVariables.swift */,
-				C17D000F2531DA8200A50EBB /* LoadingOverlay.swift */,
+				890E73ABDE3B806E9854800F /* Pods_hotmart.framework */,
+				AD4F952D7A7C1920F40607B6 /* Pods_hotmartTests.framework */,
 			);
-			path = Utils;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C17D00132531DB1D00A50EBB /* Services */ = {
+		C16A6E242531FC660053CFCD = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		C17D00142531DB2F00A50EBB /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		C17D00152531DB4100A50EBB /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		C19389362531D7E400E9A441 = {
-			isa = PBXGroup;
-			children = (
-				C19389412531D7E400E9A441 /* hotmart */,
-				C19389582531D7E500E9A441 /* hotmartTests */,
-				C19389402531D7E400E9A441 /* Products */,
-				310EA8642D137F0074B1CC4B /* Pods */,
-				EF684022DDEE358E77CC0B03 /* Frameworks */,
+				C16A6E2F2531FC660053CFCD /* hotmart */,
+				C16A6E462531FC670053CFCD /* hotmartTests */,
+				C16A6E2E2531FC660053CFCD /* Products */,
+				2DC4ADA74C2B9B29F422BB21 /* Pods */,
+				5A21C1733694FAF2F814A500 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		C19389402531D7E400E9A441 /* Products */ = {
+		C16A6E2E2531FC660053CFCD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C193893F2531D7E400E9A441 /* hotmart.app */,
-				C19389552531D7E500E9A441 /* hotmartTests.xctest */,
+				C16A6E2D2531FC660053CFCD /* hotmart.app */,
+				C16A6E432531FC670053CFCD /* hotmartTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C19389412531D7E400E9A441 /* hotmart */ = {
+		C16A6E2F2531FC660053CFCD /* hotmart */ = {
 			isa = PBXGroup;
 			children = (
-				C17D000A2531DA3600A50EBB /* Utils */,
-				C17D00132531DB1D00A50EBB /* Services */,
-				C17D00142531DB2F00A50EBB /* Models */,
-				C17D00152531DB4100A50EBB /* Views */,
-				C19389422531D7E400E9A441 /* AppDelegate.swift */,
-				C19389442531D7E400E9A441 /* SceneDelegate.swift */,
-				C19389462531D7E400E9A441 /* ContentView.swift */,
-				C19389482531D7E500E9A441 /* Assets.xcassets */,
-				C193894D2531D7E500E9A441 /* LaunchScreen.storyboard */,
-				C19389502531D7E500E9A441 /* Info.plist */,
-				C193894A2531D7E500E9A441 /* Preview Content */,
+				C16A6E302531FC660053CFCD /* AppDelegate.swift */,
+				C16A6E322531FC660053CFCD /* SceneDelegate.swift */,
+				C16A6E342531FC660053CFCD /* ViewController.swift */,
+				C16A6E362531FC660053CFCD /* Main.storyboard */,
+				C16A6E392531FC670053CFCD /* Assets.xcassets */,
+				C16A6E3B2531FC670053CFCD /* LaunchScreen.storyboard */,
+				C16A6E3E2531FC670053CFCD /* Info.plist */,
 			);
 			path = hotmart;
 			sourceTree = "<group>";
 		};
-		C193894A2531D7E500E9A441 /* Preview Content */ = {
+		C16A6E462531FC670053CFCD /* hotmartTests */ = {
 			isa = PBXGroup;
 			children = (
-				C193894B2531D7E500E9A441 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		C19389582531D7E500E9A441 /* hotmartTests */ = {
-			isa = PBXGroup;
-			children = (
-				C19389592531D7E500E9A441 /* hotmartTests.swift */,
-				C193895B2531D7E500E9A441 /* Info.plist */,
+				C16A6E472531FC670053CFCD /* hotmartTests.swift */,
+				C16A6E492531FC670053CFCD /* Info.plist */,
 			);
 			path = hotmartTests;
-			sourceTree = "<group>";
-		};
-		EF684022DDEE358E77CC0B03 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F13E64121A9E74B20CDF6C6E /* Pods_hotmart.framework */,
-				41CE166B30DAE9579FE06F31 /* Pods_hotmartTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C193893E2531D7E400E9A441 /* hotmart */ = {
+		C16A6E2C2531FC660053CFCD /* hotmart */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C193895E2531D7E500E9A441 /* Build configuration list for PBXNativeTarget "hotmart" */;
+			buildConfigurationList = C16A6E4C2531FC670053CFCD /* Build configuration list for PBXNativeTarget "hotmart" */;
 			buildPhases = (
-				D5263E43B50BA8986855BE6F /* [CP] Check Pods Manifest.lock */,
-				C193893B2531D7E400E9A441 /* Sources */,
-				C193893C2531D7E400E9A441 /* Frameworks */,
-				C193893D2531D7E400E9A441 /* Resources */,
-				FB5F506374A160D5893C7C3D /* [CP] Embed Pods Frameworks */,
+				75A96861CE2F7C927FC866EF /* [CP] Check Pods Manifest.lock */,
+				C16A6E292531FC660053CFCD /* Sources */,
+				C16A6E2A2531FC660053CFCD /* Frameworks */,
+				C16A6E2B2531FC660053CFCD /* Resources */,
+				1EDD3658627C925E97B0847E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,48 +151,48 @@
 			);
 			name = hotmart;
 			productName = hotmart;
-			productReference = C193893F2531D7E400E9A441 /* hotmart.app */;
+			productReference = C16A6E2D2531FC660053CFCD /* hotmart.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C19389542531D7E500E9A441 /* hotmartTests */ = {
+		C16A6E422531FC670053CFCD /* hotmartTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C19389612531D7E500E9A441 /* Build configuration list for PBXNativeTarget "hotmartTests" */;
+			buildConfigurationList = C16A6E4F2531FC670053CFCD /* Build configuration list for PBXNativeTarget "hotmartTests" */;
 			buildPhases = (
-				D5DCB39E373A6B98F8BCD112 /* [CP] Check Pods Manifest.lock */,
-				C19389512531D7E500E9A441 /* Sources */,
-				C19389522531D7E500E9A441 /* Frameworks */,
-				C19389532531D7E500E9A441 /* Resources */,
+				7C3A9C602123FED49B8027F1 /* [CP] Check Pods Manifest.lock */,
+				C16A6E3F2531FC670053CFCD /* Sources */,
+				C16A6E402531FC670053CFCD /* Frameworks */,
+				C16A6E412531FC670053CFCD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C19389572531D7E500E9A441 /* PBXTargetDependency */,
+				C16A6E452531FC670053CFCD /* PBXTargetDependency */,
 			);
 			name = hotmartTests;
 			productName = hotmartTests;
-			productReference = C19389552531D7E500E9A441 /* hotmartTests.xctest */;
+			productReference = C16A6E432531FC670053CFCD /* hotmartTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C19389372531D7E400E9A441 /* Project object */ = {
+		C16A6E252531FC660053CFCD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Wellysson Avelar";
 				TargetAttributes = {
-					C193893E2531D7E400E9A441 = {
+					C16A6E2C2531FC660053CFCD = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
-					C19389542531D7E500E9A441 = {
+					C16A6E422531FC670053CFCD = {
 						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = C193893E2531D7E400E9A441;
+						TestTargetID = C16A6E2C2531FC660053CFCD;
 					};
 				};
 			};
-			buildConfigurationList = C193893A2531D7E400E9A441 /* Build configuration list for PBXProject "hotmart" */;
+			buildConfigurationList = C16A6E282531FC660053CFCD /* Build configuration list for PBXProject "hotmart" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -245,29 +200,29 @@
 				en,
 				Base,
 			);
-			mainGroup = C19389362531D7E400E9A441;
-			productRefGroup = C19389402531D7E400E9A441 /* Products */;
+			mainGroup = C16A6E242531FC660053CFCD;
+			productRefGroup = C16A6E2E2531FC660053CFCD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C193893E2531D7E400E9A441 /* hotmart */,
-				C19389542531D7E500E9A441 /* hotmartTests */,
+				C16A6E2C2531FC660053CFCD /* hotmart */,
+				C16A6E422531FC670053CFCD /* hotmartTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C193893D2531D7E400E9A441 /* Resources */ = {
+		C16A6E2B2531FC660053CFCD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C193894F2531D7E500E9A441 /* LaunchScreen.storyboard in Resources */,
-				C193894C2531D7E500E9A441 /* Preview Assets.xcassets in Resources */,
-				C19389492531D7E500E9A441 /* Assets.xcassets in Resources */,
+				C16A6E3D2531FC670053CFCD /* LaunchScreen.storyboard in Resources */,
+				C16A6E3A2531FC670053CFCD /* Assets.xcassets in Resources */,
+				C16A6E382531FC660053CFCD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C19389532531D7E500E9A441 /* Resources */ = {
+		C16A6E412531FC670053CFCD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,7 +232,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D5263E43B50BA8986855BE6F /* [CP] Check Pods Manifest.lock */ = {
+		1EDD3658627C925E97B0847E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hotmart/Pods-hotmart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hotmart/Pods-hotmart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hotmart/Pods-hotmart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75A96861CE2F7C927FC866EF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -299,7 +271,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D5DCB39E373A6B98F8BCD112 /* [CP] Check Pods Manifest.lock */ = {
+		7C3A9C602123FED49B8027F1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,61 +293,50 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FB5F506374A160D5893C7C3D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-hotmart/Pods-hotmart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-hotmart/Pods-hotmart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hotmart/Pods-hotmart-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C193893B2531D7E400E9A441 /* Sources */ = {
+		C16A6E292531FC660053CFCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C19389432531D7E400E9A441 /* AppDelegate.swift in Sources */,
-				C19389452531D7E400E9A441 /* SceneDelegate.swift in Sources */,
-				C19389472531D7E400E9A441 /* ContentView.swift in Sources */,
-				C17D00102531DA8200A50EBB /* LoadingOverlay.swift in Sources */,
-				C17D000C2531DA5B00A50EBB /* MyVariables.swift in Sources */,
+				C16A6E352531FC660053CFCD /* ViewController.swift in Sources */,
+				C16A6E312531FC660053CFCD /* AppDelegate.swift in Sources */,
+				C16A6E332531FC660053CFCD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C19389512531D7E500E9A441 /* Sources */ = {
+		C16A6E3F2531FC670053CFCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C193895A2531D7E500E9A441 /* hotmartTests.swift in Sources */,
+				C16A6E482531FC670053CFCD /* hotmartTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C19389572531D7E500E9A441 /* PBXTargetDependency */ = {
+		C16A6E452531FC670053CFCD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C193893E2531D7E400E9A441 /* hotmart */;
-			targetProxy = C19389562531D7E500E9A441 /* PBXContainerItemProxy */;
+			target = C16A6E2C2531FC660053CFCD /* hotmart */;
+			targetProxy = C16A6E442531FC670053CFCD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C193894D2531D7E500E9A441 /* LaunchScreen.storyboard */ = {
+		C16A6E362531FC660053CFCD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C193894E2531D7E500E9A441 /* Base */,
+				C16A6E372531FC660053CFCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C16A6E3B2531FC670053CFCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C16A6E3C2531FC670053CFCD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -383,7 +344,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C193895C2531D7E500E9A441 /* Debug */ = {
+		C16A6E4A2531FC670053CFCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -443,7 +404,7 @@
 			};
 			name = Debug;
 		};
-		C193895D2531D7E500E9A441 /* Release */ = {
+		C16A6E4B2531FC670053CFCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -497,15 +458,13 @@
 			};
 			name = Release;
 		};
-		C193895F2531D7E500E9A441 /* Debug */ = {
+		C16A6E4D2531FC670053CFCD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97A60DB9358B5A5C2F58CC1F /* Pods-hotmart.debug.xcconfig */;
+			baseConfigurationReference = F8559BCB20A83F23334C19C2 /* Pods-hotmart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"hotmart/Preview Content\"";
 				DEVELOPMENT_TEAM = 3K3JEFTNCN;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = hotmart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -518,15 +477,13 @@
 			};
 			name = Debug;
 		};
-		C19389602531D7E500E9A441 /* Release */ = {
+		C16A6E4E2531FC670053CFCD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC1549CEB0A09840F50C13DC /* Pods-hotmart.release.xcconfig */;
+			baseConfigurationReference = 87A0742C6B9F815F4B29576E /* Pods-hotmart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"hotmart/Preview Content\"";
 				DEVELOPMENT_TEAM = 3K3JEFTNCN;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = hotmart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -539,9 +496,9 @@
 			};
 			name = Release;
 		};
-		C19389622531D7E500E9A441 /* Debug */ = {
+		C16A6E502531FC670053CFCD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9B7CCDFE9E64A7FA181AE85 /* Pods-hotmartTests.debug.xcconfig */;
+			baseConfigurationReference = 80F8AB831B58125E0846221B /* Pods-hotmartTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -562,9 +519,9 @@
 			};
 			name = Debug;
 		};
-		C19389632531D7E500E9A441 /* Release */ = {
+		C16A6E512531FC670053CFCD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0655C327769E2169AA6176EC /* Pods-hotmartTests.release.xcconfig */;
+			baseConfigurationReference = D914751C189E1B6058206114 /* Pods-hotmartTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -588,34 +545,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C193893A2531D7E400E9A441 /* Build configuration list for PBXProject "hotmart" */ = {
+		C16A6E282531FC660053CFCD /* Build configuration list for PBXProject "hotmart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C193895C2531D7E500E9A441 /* Debug */,
-				C193895D2531D7E500E9A441 /* Release */,
+				C16A6E4A2531FC670053CFCD /* Debug */,
+				C16A6E4B2531FC670053CFCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C193895E2531D7E500E9A441 /* Build configuration list for PBXNativeTarget "hotmart" */ = {
+		C16A6E4C2531FC670053CFCD /* Build configuration list for PBXNativeTarget "hotmart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C193895F2531D7E500E9A441 /* Debug */,
-				C19389602531D7E500E9A441 /* Release */,
+				C16A6E4D2531FC670053CFCD /* Debug */,
+				C16A6E4E2531FC670053CFCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C19389612531D7E500E9A441 /* Build configuration list for PBXNativeTarget "hotmartTests" */ = {
+		C16A6E4F2531FC670053CFCD /* Build configuration list for PBXNativeTarget "hotmartTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C19389622531D7E500E9A441 /* Debug */,
-				C19389632531D7E500E9A441 /* Release */,
+				C16A6E502531FC670053CFCD /* Debug */,
+				C16A6E512531FC670053CFCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C19389372531D7E400E9A441 /* Project object */;
+	rootObject = C16A6E252531FC660053CFCD /* Project object */;
 }
