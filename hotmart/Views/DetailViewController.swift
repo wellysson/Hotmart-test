@@ -14,6 +14,8 @@ class DetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationController?.view.backgroundColor = .clear
 
         // Do any additional setup after loading the view.
     }
