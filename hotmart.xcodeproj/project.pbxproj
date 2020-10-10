@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AE8F65147E02CB6BBFE7391 /* Pods_hotmart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13E64121A9E74B20CDF6C6E /* Pods_hotmart.framework */; };
+		87461E3928AA744A3B539160 /* Pods_hotmartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CE166B30DAE9579FE06F31 /* Pods_hotmartTests.framework */; };
+		C17D000C2531DA5B00A50EBB /* MyVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17D000B2531DA5B00A50EBB /* MyVariables.swift */; };
+		C17D00102531DA8200A50EBB /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17D000F2531DA8200A50EBB /* LoadingOverlay.swift */; };
+		C19389432531D7E400E9A441 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19389422531D7E400E9A441 /* AppDelegate.swift */; };
+		C19389452531D7E400E9A441 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19389442531D7E400E9A441 /* SceneDelegate.swift */; };
+		C19389472531D7E400E9A441 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19389462531D7E400E9A441 /* ContentView.swift */; };
+		C19389492531D7E500E9A441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19389482531D7E500E9A441 /* Assets.xcassets */; };
+		C193894C2531D7E500E9A441 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C193894B2531D7E500E9A441 /* Preview Assets.xcassets */; };
+		C193894F2531D7E500E9A441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C193894D2531D7E500E9A441 /* LaunchScreen.storyboard */; };
+		C193895A2531D7E500E9A441 /* hotmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19389592531D7E500E9A441 /* hotmartTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C19389562531D7E500E9A441 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19389372531D7E400E9A441 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C193893E2531D7E400E9A441;
+			remoteInfo = hotmart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0655C327769E2169AA6176EC /* Pods-hotmartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotmartTests.release.xcconfig"; path = "Target Support Files/Pods-hotmartTests/Pods-hotmartTests.release.xcconfig"; sourceTree = "<group>"; };
+		41CE166B30DAE9579FE06F31 /* Pods_hotmartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hotmartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A60DB9358B5A5C2F58CC1F /* Pods-hotmart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotmart.debug.xcconfig"; path = "Target Support Files/Pods-hotmart/Pods-hotmart.debug.xcconfig"; sourceTree = "<group>"; };
+		BC1549CEB0A09840F50C13DC /* Pods-hotmart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotmart.release.xcconfig"; path = "Target Support Files/Pods-hotmart/Pods-hotmart.release.xcconfig"; sourceTree = "<group>"; };
+		C17D000B2531DA5B00A50EBB /* MyVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVariables.swift; sourceTree = "<group>"; };
+		C17D000F2531DA8200A50EBB /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
+		C193893F2531D7E400E9A441 /* hotmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hotmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19389422531D7E400E9A441 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C19389442531D7E400E9A441 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C19389462531D7E400E9A441 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C19389482531D7E500E9A441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C193894B2531D7E500E9A441 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C193894E2531D7E500E9A441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C19389502531D7E500E9A441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C19389552531D7E500E9A441 /* hotmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hotmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19389592531D7E500E9A441 /* hotmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hotmartTests.swift; sourceTree = "<group>"; };
+		C193895B2531D7E500E9A441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B7CCDFE9E64A7FA181AE85 /* Pods-hotmartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotmartTests.debug.xcconfig"; path = "Target Support Files/Pods-hotmartTests/Pods-hotmartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F13E64121A9E74B20CDF6C6E /* Pods_hotmart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hotmart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C193893C2531D7E400E9A441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE8F65147E02CB6BBFE7391 /* Pods_hotmart.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19389522531D7E500E9A441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87461E3928AA744A3B539160 /* Pods_hotmartTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		310EA8642D137F0074B1CC4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97A60DB9358B5A5C2F58CC1F /* Pods-hotmart.debug.xcconfig */,
+				BC1549CEB0A09840F50C13DC /* Pods-hotmart.release.xcconfig */,
+				C9B7CCDFE9E64A7FA181AE85 /* Pods-hotmartTests.debug.xcconfig */,
+				0655C327769E2169AA6176EC /* Pods-hotmartTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C17D000A2531DA3600A50EBB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C17D000B2531DA5B00A50EBB /* MyVariables.swift */,
+				C17D000F2531DA8200A50EBB /* LoadingOverlay.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C17D00132531DB1D00A50EBB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C17D00142531DB2F00A50EBB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C17D00152531DB4100A50EBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C19389362531D7E400E9A441 = {
+			isa = PBXGroup;
+			children = (
+				C19389412531D7E400E9A441 /* hotmart */,
+				C19389582531D7E500E9A441 /* hotmartTests */,
+				C19389402531D7E400E9A441 /* Products */,
+				310EA8642D137F0074B1CC4B /* Pods */,
+				EF684022DDEE358E77CC0B03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C19389402531D7E400E9A441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C193893F2531D7E400E9A441 /* hotmart.app */,
+				C19389552531D7E500E9A441 /* hotmartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C19389412531D7E400E9A441 /* hotmart */ = {
+			isa = PBXGroup;
+			children = (
+				C17D000A2531DA3600A50EBB /* Utils */,
+				C17D00132531DB1D00A50EBB /* Services */,
+				C17D00142531DB2F00A50EBB /* Models */,
+				C17D00152531DB4100A50EBB /* Views */,
+				C19389422531D7E400E9A441 /* AppDelegate.swift */,
+				C19389442531D7E400E9A441 /* SceneDelegate.swift */,
+				C19389462531D7E400E9A441 /* ContentView.swift */,
+				C19389482531D7E500E9A441 /* Assets.xcassets */,
+				C193894D2531D7E500E9A441 /* LaunchScreen.storyboard */,
+				C19389502531D7E500E9A441 /* Info.plist */,
+				C193894A2531D7E500E9A441 /* Preview Content */,
+			);
+			path = hotmart;
+			sourceTree = "<group>";
+		};
+		C193894A2531D7E500E9A441 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C193894B2531D7E500E9A441 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C19389582531D7E500E9A441 /* hotmartTests */ = {
+			isa = PBXGroup;
+			children = (
+				C19389592531D7E500E9A441 /* hotmartTests.swift */,
+				C193895B2531D7E500E9A441 /* Info.plist */,
+			);
+			path = hotmartTests;
+			sourceTree = "<group>";
+		};
+		EF684022DDEE358E77CC0B03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F13E64121A9E74B20CDF6C6E /* Pods_hotmart.framework */,
+				41CE166B30DAE9579FE06F31 /* Pods_hotmartTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C193893E2531D7E400E9A441 /* hotmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C193895E2531D7E500E9A441 /* Build configuration list for PBXNativeTarget "hotmart" */;
+			buildPhases = (
+				D5263E43B50BA8986855BE6F /* [CP] Check Pods Manifest.lock */,
+				C193893B2531D7E400E9A441 /* Sources */,
+				C193893C2531D7E400E9A441 /* Frameworks */,
+				C193893D2531D7E400E9A441 /* Resources */,
+				FB5F506374A160D5893C7C3D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hotmart;
+			productName = hotmart;
+			productReference = C193893F2531D7E400E9A441 /* hotmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C19389542531D7E500E9A441 /* hotmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19389612531D7E500E9A441 /* Build configuration list for PBXNativeTarget "hotmartTests" */;
+			buildPhases = (
+				D5DCB39E373A6B98F8BCD112 /* [CP] Check Pods Manifest.lock */,
+				C19389512531D7E500E9A441 /* Sources */,
+				C19389522531D7E500E9A441 /* Frameworks */,
+				C19389532531D7E500E9A441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C19389572531D7E500E9A441 /* PBXTargetDependency */,
+			);
+			name = hotmartTests;
+			productName = hotmartTests;
+			productReference = C19389552531D7E500E9A441 /* hotmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C19389372531D7E400E9A441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Wellysson Avelar";
+				TargetAttributes = {
+					C193893E2531D7E400E9A441 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					C19389542531D7E500E9A441 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = C193893E2531D7E400E9A441;
+					};
+				};
+			};
+			buildConfigurationList = C193893A2531D7E400E9A441 /* Build configuration list for PBXProject "hotmart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C19389362531D7E400E9A441;
+			productRefGroup = C19389402531D7E400E9A441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C193893E2531D7E400E9A441 /* hotmart */,
+				C19389542531D7E500E9A441 /* hotmartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C193893D2531D7E400E9A441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C193894F2531D7E500E9A441 /* LaunchScreen.storyboard in Resources */,
+				C193894C2531D7E500E9A441 /* Preview Assets.xcassets in Resources */,
+				C19389492531D7E500E9A441 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19389532531D7E500E9A441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D5263E43B50BA8986855BE6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hotmart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5DCB39E373A6B98F8BCD112 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hotmartTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB5F506374A160D5893C7C3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hotmart/Pods-hotmart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hotmart/Pods-hotmart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hotmart/Pods-hotmart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C193893B2531D7E400E9A441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19389432531D7E400E9A441 /* AppDelegate.swift in Sources */,
+				C19389452531D7E400E9A441 /* SceneDelegate.swift in Sources */,
+				C19389472531D7E400E9A441 /* ContentView.swift in Sources */,
+				C17D00102531DA8200A50EBB /* LoadingOverlay.swift in Sources */,
+				C17D000C2531DA5B00A50EBB /* MyVariables.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19389512531D7E500E9A441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C193895A2531D7E500E9A441 /* hotmartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C19389572531D7E500E9A441 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C193893E2531D7E400E9A441 /* hotmart */;
+			targetProxy = C19389562531D7E500E9A441 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C193894D2531D7E500E9A441 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C193894E2531D7E500E9A441 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C193895C2531D7E500E9A441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C193895D2531D7E500E9A441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C193895F2531D7E500E9A441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A60DB9358B5A5C2F58CC1F /* Pods-hotmart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"hotmart/Preview Content\"";
+				DEVELOPMENT_TEAM = 3K3JEFTNCN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = hotmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = awt.hotmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C19389602531D7E500E9A441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1549CEB0A09840F50C13DC /* Pods-hotmart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"hotmart/Preview Content\"";
+				DEVELOPMENT_TEAM = 3K3JEFTNCN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = hotmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = awt.hotmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C19389622531D7E500E9A441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B7CCDFE9E64A7FA181AE85 /* Pods-hotmartTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K3JEFTNCN;
+				INFOPLIST_FILE = hotmartTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = awt.hotmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hotmart.app/hotmart";
+			};
+			name = Debug;
+		};
+		C19389632531D7E500E9A441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0655C327769E2169AA6176EC /* Pods-hotmartTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K3JEFTNCN;
+				INFOPLIST_FILE = hotmartTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = awt.hotmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hotmart.app/hotmart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C193893A2531D7E400E9A441 /* Build configuration list for PBXProject "hotmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C193895C2531D7E500E9A441 /* Debug */,
+				C193895D2531D7E500E9A441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C193895E2531D7E500E9A441 /* Build configuration list for PBXNativeTarget "hotmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C193895F2531D7E500E9A441 /* Debug */,
+				C19389602531D7E500E9A441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19389612531D7E500E9A441 /* Build configuration list for PBXNativeTarget "hotmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19389622531D7E500E9A441 /* Debug */,
+				C19389632531D7E500E9A441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C19389372531D7E400E9A441 /* Project object */;
+}
