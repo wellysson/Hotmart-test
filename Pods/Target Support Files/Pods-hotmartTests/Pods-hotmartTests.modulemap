@@ -1,6 +1,0 @@
-framework module Pods_hotmartTests {
-  umbrella header "Pods-hotmartTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

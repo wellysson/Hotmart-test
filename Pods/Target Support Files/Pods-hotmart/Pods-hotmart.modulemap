@@ -1,6 +1,0 @@
-framework module Pods_hotmart {
-  umbrella header "Pods-hotmart-umbrella.h"
-
-  export *
-  module * { export * }
-}
