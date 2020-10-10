@@ -31,5 +31,44 @@ class LocationDetail: Mappable {
         self.phone <- map["phone"]
         self.adress <- map["adress"]
         self.schedule <- map["schedule"]
+        
+        if self.schedule == nil {
+            var single: Schedules?
+            single <- map["schedule"]
+            if let schedule = single {
+                self.schedule = [Schedules]()
+                self.schedule?.append(schedule)
+            }
+        }
+    }
+    
+    public func getWorkingDaysTimes() -> String? {
+        if let item = self.schedule?.first {
+            let list: [Schedule?] = [item.monday, item.tuesday, item.wednesday, item.thursday, item.friday]
+            
+            var returnValue = ""
+            if let item = list.first(where: {$0 != nil} ), let open = item?.open, let close = item?.close {
+                returnValue = "seg a sex: \(open) às \(close)"
+            }
+            
+            return returnValue
+        }
+        
+        return nil
+    }
+    
+    public func getWeekendTimes() -> String? {
+        if let item = self.schedule?.first {
+            let list: [Schedule?] = [item.saturday, item.saturday]
+            
+            var returnValue = ""
+            if let item = list.first(where: {$0 != nil} ), let open = item?.open, let close = item?.close {
+                returnValue = "sáb e dom: \(open) às \(close)"
+            }
+            
+            return returnValue
+        }
+        
+        return nil
     }
 }

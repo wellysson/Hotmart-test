@@ -153,11 +153,11 @@
                             <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ID3-6v-PCg" userLabel="Content View">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
                                 <subviews>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWo-q8-AZy">
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWo-q8-AZy">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nm5-cp-KWr" userLabel="Internal View">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                                                <rect key="frame" x="0.0" y="-44" width="375" height="1200"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MhU-60-pym">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
@@ -339,8 +339,8 @@ Belo Horizonte - MG</string>
                                                             <constraint firstItem="fqE-VV-SFD" firstAttribute="top" secondItem="Kt7-Ah-LJf" secondAttribute="top" id="IZy-vI-pkB"/>
                                                             <constraint firstItem="gjK-VO-kgv" firstAttribute="top" secondItem="X06-ER-mBF" secondAttribute="top" id="LP6-OA-4gy"/>
                                                             <constraint firstItem="fqE-VV-SFD" firstAttribute="leading" secondItem="O1Y-Y6-vNl" secondAttribute="trailing" constant="10" id="NTs-pK-hUZ"/>
-                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="5Hd-vG-oiG" secondAttribute="trailing" symbolic="YES" id="NUO-4U-6Pn"/>
-                                                            <constraint firstItem="fqE-VV-SFD" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Kt7-Ah-LJf" secondAttribute="trailing" symbolic="YES" id="Oqs-iV-SJn"/>
+                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="5Hd-vG-oiG" secondAttribute="trailing" constant="20" symbolic="YES" id="NUO-4U-6Pn"/>
+                                                            <constraint firstItem="fqE-VV-SFD" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Kt7-Ah-LJf" secondAttribute="trailing" constant="8" symbolic="YES" id="Oqs-iV-SJn"/>
                                                             <constraint firstAttribute="trailing" secondItem="fqE-VV-SFD" secondAttribute="trailing" constant="26" id="R6T-cB-G6O"/>
                                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="FLs-Xh-QtR" secondAttribute="trailing" constant="20" symbolic="YES" id="Ra5-Te-Aa9"/>
                                                             <constraint firstItem="1st-e7-D3u" firstAttribute="leading" secondItem="xsl-Ct-xWq" secondAttribute="leading" constant="26" id="XQx-gp-wLo"/>
@@ -350,7 +350,7 @@ Belo Horizonte - MG</string>
                                                             <constraint firstItem="O1Y-Y6-vNl" firstAttribute="top" secondItem="Kt7-Ah-LJf" secondAttribute="bottom" constant="44" id="hU8-cR-9wp"/>
                                                             <constraint firstItem="Kt7-Ah-LJf" firstAttribute="leading" secondItem="xsl-Ct-xWq" secondAttribute="leading" constant="26" id="jNk-2X-Yva"/>
                                                             <constraint firstItem="gjK-VO-kgv" firstAttribute="leading" secondItem="X06-ER-mBF" secondAttribute="trailing" constant="10" id="trc-NJ-B0s"/>
-                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1st-e7-D3u" secondAttribute="trailing" symbolic="YES" id="uWi-Za-nDP"/>
+                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1st-e7-D3u" secondAttribute="trailing" constant="20" symbolic="YES" id="uWi-Za-nDP"/>
                                                             <constraint firstItem="1st-e7-D3u" firstAttribute="top" secondItem="xsl-Ct-xWq" secondAttribute="top" id="xqR-As-GFw"/>
                                                         </constraints>
                                                     </view>
@@ -366,7 +366,8 @@ Belo Horizonte - MG</string>
                                                         </subviews>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="CE5-Da-7jb" secondAttribute="trailing" symbolic="YES" id="D1p-OM-RAO"/>
+                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="CE5-Da-7jb" secondAttribute="trailing" constant="20" symbolic="YES" id="D1p-OM-RAO"/>
+                                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="CE5-Da-7jb" secondAttribute="bottom" constant="10" id="KNv-b2-CC5"/>
                                                             <constraint firstItem="CE5-Da-7jb" firstAttribute="leading" secondItem="bGu-p7-l9S" secondAttribute="leading" constant="26" id="OXw-JD-Xpd"/>
                                                             <constraint firstItem="CE5-Da-7jb" firstAttribute="top" secondItem="bGu-p7-l9S" secondAttribute="top" constant="22" id="XMZ-8p-YAb"/>
                                                         </constraints>
@@ -394,10 +395,11 @@ Belo Horizonte - MG</string>
                                             </view>
                                         </subviews>
                                         <constraints>
+                                            <constraint firstItem="Nm5-cp-KWr" firstAttribute="height" secondItem="hWo-q8-AZy" secondAttribute="height" priority="250" id="C8r-xM-0Ca"/>
                                             <constraint firstItem="Nm5-cp-KWr" firstAttribute="top" secondItem="hWo-q8-AZy" secondAttribute="top" id="MSQ-7L-bDK"/>
                                             <constraint firstAttribute="trailing" secondItem="Nm5-cp-KWr" secondAttribute="trailing" id="OcM-il-uyh"/>
                                             <constraint firstItem="Nm5-cp-KWr" firstAttribute="leading" secondItem="hWo-q8-AZy" secondAttribute="leading" id="bMP-Pg-IPx"/>
-                                            <constraint firstItem="Nm5-cp-KWr" firstAttribute="height" secondItem="hWo-q8-AZy" secondAttribute="height" id="sJD-RN-IZz"/>
+                                            <constraint firstItem="Nm5-cp-KWr" firstAttribute="height" relation="greaterThanOrEqual" secondItem="hWo-q8-AZy" secondAttribute="height" id="sJD-RN-IZz"/>
                                             <constraint firstAttribute="bottom" secondItem="Nm5-cp-KWr" secondAttribute="bottom" id="yML-pH-b8B"/>
                                         </constraints>
                                     </scrollView>
@@ -405,6 +407,7 @@ Belo Horizonte - MG</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="hWo-q8-AZy" secondAttribute="trailing" id="Cdz-bc-pzC"/>
+                                    <constraint firstItem="Nm5-cp-KWr" firstAttribute="top" relation="lessThanOrEqual" secondItem="ID3-6v-PCg" secondAttribute="top" id="GYm-Qq-mWl"/>
                                     <constraint firstItem="Nm5-cp-KWr" firstAttribute="width" secondItem="ID3-6v-PCg" secondAttribute="width" id="S7f-iM-8Eh"/>
                                     <constraint firstItem="hWo-q8-AZy" firstAttribute="leading" secondItem="ID3-6v-PCg" secondAttribute="leading" id="ZIt-Fh-VIb"/>
                                     <constraint firstAttribute="bottom" secondItem="hWo-q8-AZy" secondAttribute="bottom" id="l5s-ta-7nG"/>
@@ -426,6 +429,20 @@ Belo Horizonte - MG</string>
                     </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="1200"/>
+                    <connections>
+                        <outlet property="aboutDescriptionLanel" destination="5Hd-vG-oiG" id="9gP-RE-80Q"/>
+                        <outlet property="addressLabel" destination="gjK-VO-kgv" id="FgS-O6-E9x"/>
+                        <outlet property="locationNameLabel" destination="Zcc-B7-db8" id="OOP-s6-yHr"/>
+                        <outlet property="phoneLabel" destination="FLs-Xh-QtR" id="pEn-7y-P44"/>
+                        <outlet property="star1ImageView" destination="aIZ-5F-eqr" id="ycw-Sz-93A"/>
+                        <outlet property="star2ImageView" destination="165-M7-ETX" id="kEJ-uz-czh"/>
+                        <outlet property="star3ImageView" destination="W1s-zl-BHM" id="WCp-2i-hg2"/>
+                        <outlet property="star4ImageView" destination="xrd-Gs-ef7" id="OXB-9p-fAf"/>
+                        <outlet property="star5ImageView" destination="A7I-x3-Kg7" id="Fp9-Jc-gFz"/>
+                        <outlet property="starValueLabel" destination="vwd-Ue-grA" id="6te-RJ-bc6"/>
+                        <outlet property="topImageView" destination="MhU-60-pym" id="WvB-ZO-crP"/>
+                        <outlet property="workingTimesLabel" destination="fqE-VV-SFD" id="xll-5z-OP3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rfs-q9-cVM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
