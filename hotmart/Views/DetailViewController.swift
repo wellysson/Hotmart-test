@@ -28,12 +28,17 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationController?.view.backgroundColor = .clear
+        self.navigationController?.isNavigationBarHidden = true
 
         self.fillContent()
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     private func fillContent() {
+        self.loadTopImage()
         self.locationNameLabel.text = self.locationDetail?.name
         self.setStars()
         self.aboutDescriptionLanel.text = self.locationDetail?.about
@@ -41,11 +46,37 @@ class DetailViewController: UIViewController {
         self.phoneLabel.text = self.locationDetail?.phone
         self.addressLabel.text = self.locationDetail?.adress
     }
-
+    
+    @IBAction func backButton(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
+    @IBAction func shareButton(_ sender: Any) {
+    }
+    
 }
 
 //Flow
 extension DetailViewController {
+    
+    private func loadTopImage() {
+        //TODO: Implementação com mock de como ficaria caso o serviço retore propriedade url
+        let url = "https://diariodorio.com/wp-content/uploads/2020/05/Abrasel-RJ-cartilha-traz-orienta%C3%A7%C3%B5es-para-reabertura.jpg"
+        if let image = MyVariables.imageCache.image(withIdentifier: url) {
+            self.topImageView.image = image
+        } else {
+            LocationService.getPhoto(url: url) { [weak self] image in
+                guard let self = self else { return }
+                
+                MyVariables.imageCache.add(image, withIdentifier: url)
+                
+                DispatchQueue.main.async {
+                    self.topImageView.image = image
+                }
+            }
+        }
+        //Fim
+    }
     
     private func setSchedule() {
         var times = ""
@@ -98,4 +129,6 @@ extension DetailViewController {
             self.star1ImageView.image = UIImage(named: "star_on")
         }
     }
+    
+    
 }

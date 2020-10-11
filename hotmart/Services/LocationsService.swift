@@ -41,4 +41,12 @@ class LocationService {
             }
         }
     }
+    
+    static func getPhoto(url: String, completion: @escaping (UIImage)->()) {
+        Alamofire.request(url).responseImage(completionHandler: { (response) in
+            if let image = response.result.value {
+                completion(image)
+            }
+        })
+    }
 }

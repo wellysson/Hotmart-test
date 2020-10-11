@@ -22,7 +22,13 @@ class LocationsViewCell: UICollectionViewCell {
     
     @IBOutlet weak var cellWidth: NSLayoutConstraint!
     
-   static let identifier = "LocationsViewCell"
+    static let identifier = "LocationsViewCell"
+    
+    public var image: UIImage? {
+        didSet {
+            self.imageView.image = image
+        }
+    }
 
     override func awakeFromNib() {
         super.awakeFromNib()

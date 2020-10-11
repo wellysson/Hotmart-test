@@ -16,16 +16,20 @@ class LocationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        let layout = UICollectionViewFlowLayout()
-//        layout.itemSize = CGSize(width: 200, height: 600)
-//        collectionView.collectionViewLayout = layout
-        
+                
         self.collectionView.register(LocationsViewCell.nib(), forCellWithReuseIdentifier: LocationsViewCell.identifier)
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         
         self.fillContent()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = false
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
 
     private func fillContent() {
@@ -55,6 +59,22 @@ extension LocationViewController: UICollectionViewDataSource, UICollectionViewDe
         let width = self.getCellWidth()
         cell.configure(image: nil, name: location.name ?? "", type: location.type ?? "", review: location.review ?? 0, width: width)
         
+        //TODO: Implementação com mock de como ficaria caso o serviço retore propriedade url
+        let url = "https://media-cdn.tripadvisor.com/media/photo-s/19/a4/6c/82/dining-and-bar-area.jpg"
+        if let image = MyVariables.imageCache.image(withIdentifier: url) {
+            cell.image = image
+        } else {
+            LocationService.getPhoto(url: url) { image in
+                
+                MyVariables.imageCache.add(image, withIdentifier: url)
+                
+                DispatchQueue.main.async {
+                    cell.image = image
+                }
+            }
+        }
+        //Fim
+        
         return cell
     }
     
@@ -65,10 +85,6 @@ extension LocationViewController: UICollectionViewDataSource, UICollectionViewDe
             self.getLocationDetail(id: id)
         }
     }
-    
-//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-//        return CGSize(width: 200, height: 600)
-//    }
 }
 
 //Flow
